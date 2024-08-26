@@ -1,0 +1,14 @@
+{
+  "name": "twittr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwind -i ./src/css/input.css -o ./public/css/style.css --watch"
+  },
+  "author": "Dzaky Adla",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
