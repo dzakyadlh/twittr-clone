@@ -1,0 +1,593 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <title>twittr | Home</title>
+  </head>
+  <body class="bg-primary-bg font-poppins overflow-x-hidden">
+    <main class="w-screen min-h-screen h-fit flex justify-center px-16">
+      <!-- sidebar -->
+      <aside
+        class="sticky top-0 z-40 w-56 h-screen transition-transform -translate-x-full sm:translate-x-0"
+      >
+        <div class="h-full pr-[30px] pt-[30px] overflow-y-auto bg-inherit">
+          <ul class="space-y-[30px]">
+            <li>
+              <h1 class="text-white font-bold text-[28px]">twittr.</h1>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="flex items-center text-white font-bold text-xl"
+              >
+                <img
+                  src="../../assets/icons/home-hashtag.png"
+                  alt="home"
+                  class="w-7 h-7"
+                />
+                <span class="ms-4">Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center text-white text-xl">
+                <img
+                  src="../../assets/icons/search-normal.png"
+                  alt="explore"
+                  class="w-7 h-7"
+                />
+                <span class="ms-4">Explore</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center text-white text-xl">
+                <img
+                  src="../../assets/icons/notification.png"
+                  alt="notification"
+                  class="w-7 h-7"
+                />
+                <span class="ms-4">Notifications</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center text-white text-xl">
+                <img
+                  src="../../assets/icons/sms.png"
+                  alt="message"
+                  class="w-7 h-7"
+                />
+                <span class="ms-4">Messages</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center text-white text-xl">
+                <img
+                  src="../../assets/icons/note-add.png"
+                  alt="bookmarks"
+                  class="w-7 h-7"
+                />
+                <span class="ms-4">Bookmarks</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center text-white text-xl">
+                <img
+                  src="../../assets/icons/crown-white.png"
+                  alt="communities"
+                  class="w-7 h-7"
+                />
+                <span class="ms-4">Communities</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="../profile/index.html"
+                class="flex items-center text-white text-xl"
+              >
+                <img
+                  src="../../assets/icons/profile-circle.png"
+                  alt="profile"
+                  class="w-7 h-7"
+                />
+                <span class="ms-4">Profile</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="../../index.html"
+                class="flex items-center text-white text-xl"
+              >
+                <img
+                  src="../../assets/icons/group.png"
+                  alt="signout"
+                  class="w-7 h-7"
+                />
+                <span class="ms-4">Sign Out</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <div class="w-2/3 h-full flex space-x-[30px]">
+        <div
+          class="w-[570] flex-col border-border-gray border-x pt-5 space-y-5"
+        >
+          <nav class="flex justify-around border-border-gray border-b">
+            <a
+              href="#"
+              class="text-white font-bold text-center pb-3 border-b-4 border-twittr-blue"
+            >
+              For You
+            </a>
+            <a href="#" class="text-subtitle-text text-center pb-3"
+              >Following</a
+            >
+          </nav>
+          <!-- New Post -->
+          <div class="flex px-4 pb-4 border-border-gray border-b space-x-2">
+            <img
+              src="../../assets/images/avatar_bwa.png"
+              alt="bwa"
+              class="w-[46] h-[46] rounded-full"
+            />
+
+            <!-- Input -->
+            <div class="flex-col">
+              <input
+                type="text"
+                placeholder="What is happening?!"
+                class="w-full h-[100px] placeholder:text-subtitle-text placeholder:text-[20px] placeholder:leading-tight text-white bg-transparent pt-[10px] pb-[70px] px-[10px] focus:outline-none caret-twittr-blue"
+              />
+              <div class="w-[484] flex items-center justify-between">
+                <div class="flex space-x-2">
+                  <a
+                    href="#"
+                    class="flex items-center px-3 py-[6] rounded-full border-border-gray border"
+                  >
+                    <img
+                      src="../../assets/icons/happy.png"
+                      alt="happy"
+                      class="w-4 h-4"
+                    />
+                    <p class="text-white text-xs font-semibold ml-[6]">Happy</p>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex items-center px-3 py-[6] rounded-full border-border-gray border"
+                  >
+                    <img
+                      src="../../assets/icons/sad.png"
+                      alt="sad"
+                      class="w-4 h-4"
+                    />
+                    <p class="text-white text-xs font-semibold ml-[6]">Sad</p>
+                  </a>
+                  <a
+                    href="#"
+                    class="flex items-center px-3 py-[6] rounded-full border-border-gray border"
+                  >
+                    <img
+                      src="../../assets/icons/shocked.png"
+                      alt="shocked"
+                      class="w-4 h-4"
+                    />
+                    <p class="text-white text-xs font-semibold ml-[6]">
+                      Shocked
+                    </p>
+                  </a>
+                </div>
+                <a
+                  href="#"
+                  class="bg-twittr-blue text-white font-bold px-10 py-3 rounded-full hover:bg-blue-700"
+                >
+                  Post
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Post -->
+          <div class="flex px-4 pb-4 border-border-gray border-b space-x-2">
+            <!-- Profile Pic -->
+            <img
+              src="../../assets/images/avatar_bwa.png"
+              alt="bwa"
+              class="w-[46] h-[46] rounded-full"
+            />
+            <div class="w-full flex-col space-y-2.5">
+              <!-- User Data -->
+              <div class="w-full flex items-center justify-between">
+                <div class="flex-col">
+                  <h5 class="text-white font-bold flex items-center">
+                    BuildWithAngga<span
+                      ><img
+                        src="../../assets/icons/verify.png"
+                        alt="verified"
+                        class="ml-1 w-4 h-4"
+                    /></span>
+                  </h5>
+                  <p class="text-subtitle-text text-subtitle-size">
+                    @bwa &bull; 12 Jan 2024
+                  </p>
+                </div>
+                <a
+                  href="#"
+                  class="flex items-center px-3 py-[6] rounded-full border-border-gray border"
+                >
+                  <img
+                    src="../../assets/icons/happy.png"
+                    alt="happy"
+                    class="w-4 h-4"
+                  />
+                  <p class="text-white text-xs font-semibold ml-[6]">Happy</p>
+                </a>
+              </div>
+              <!-- Post contents -->
+              <p class="text-white leading-7">
+                Halo semuanya, dalam merayakan ulang tahun BuildWithAngga ke-4
+                maka kami telah merilis 6 kelas gratis terbaru untuk dipelajari
+                tahun ini.
+              </p>
+              <!-- Like button -->
+              <div class="flex space-x-1.5 items-center">
+                <a href="#"
+                  ><img
+                    src="../../assets/icons/heart.png"
+                    alt="like"
+                    class="w-5 h-5"
+                /></a>
+                <p class="text-likes-pink text-subtitle-size">22 Likes</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Post -->
+          <div class="flex px-4 pb-4 border-border-gray border-b space-x-2">
+            <!-- Profile Pic -->
+            <img
+              src="../../assets/images/avatar_masayoshi.png"
+              alt="bwa"
+              class="w-[46] h-[46] rounded-full"
+            />
+            <div class="w-full flex-col space-y-2.5">
+              <!-- User Data -->
+              <div class="w-full flex items-center justify-between">
+                <div class="flex-col">
+                  <h5 class="text-white font-bold flex items-center">
+                    Masayoshi<span
+                      ><img
+                        src="../../assets/icons/verify.png"
+                        alt="verified"
+                        class="ml-1 w-4 h-4"
+                    /></span>
+                  </h5>
+                  <p class="text-subtitle-text text-subtitle-size">
+                    @masayoshi &bull; 12 Jan 2024
+                  </p>
+                </div>
+                <a
+                  href="#"
+                  class="flex items-center px-3 py-[6] rounded-full border-border-gray border"
+                >
+                  <img
+                    src="../../assets/icons/sad.png"
+                    alt="sad"
+                    class="w-4 h-4"
+                  />
+                  <p class="text-white text-xs font-semibold ml-[6]">Sad</p>
+                </a>
+              </div>
+              <!-- Post contents -->
+              <p class="text-white leading-7">
+                Javascript susah juga buat pemula
+              </p>
+              <!-- Like button -->
+              <div class="flex space-x-2.5 items-center">
+                <div class="flex space-x-1.5">
+                  <a href="#"
+                    ><img
+                      src="../../assets/icons/heart-gray.png"
+                      alt="like"
+                      class="w-5 h-5"
+                  /></a>
+                  <p class="text-subtitle-text text-subtitle-size">394 Likes</p>
+                </div>
+                <div class="flex space-x-1.5">
+                  <a href="#"
+                    ><img
+                      src="../../assets/icons/warning.png"
+                      alt="report"
+                      class="w-5 h-5"
+                  /></a>
+                  <p class="text-subtitle-text text-subtitle-size">Report</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Post -->
+          <div class="flex px-4 pb-4 border-border-gray border-b space-x-2">
+            <!-- Profile Pic -->
+            <img
+              src="../../assets/images/avatar_alqowy.png"
+              alt="alqowy"
+              class="w-[46] h-[46] rounded-full"
+            />
+            <div class="w-full flex-col space-y-2.5">
+              <!-- User Data -->
+              <div class="w-full flex items-center justify-between">
+                <div class="flex-col">
+                  <h5 class="text-white font-bold flex items-center">Alqowy</h5>
+                  <p class="text-subtitle-text text-subtitle-size">
+                    @alqowy &bull; 12 Jan 2024
+                  </p>
+                </div>
+                <a
+                  href="#"
+                  class="flex items-center px-3 py-[6] rounded-full border-border-gray border"
+                >
+                  <img
+                    src="../../assets/icons/shocked.png"
+                    alt="shocked"
+                    class="w-4 h-4"
+                  />
+                  <p class="text-white text-xs font-semibold ml-[6]">Shocked</p>
+                </a>
+              </div>
+              <!-- Post contents -->
+              <p class="text-white leading-7">
+                Besok libur, bisa upgrade skills engineering!!!
+              </p>
+              <!-- Like button -->
+              <div class="flex space-x-2.5 items-center">
+                <div class="flex space-x-1.5">
+                  <a href="#"
+                    ><img
+                      src="../../assets/icons/heart-gray.png"
+                      alt="like"
+                      class="w-5 h-5"
+                  /></a>
+                  <p class="text-subtitle-text text-subtitle-size">394 Likes</p>
+                </div>
+                <div class="flex space-x-1.5">
+                  <a href="#"
+                    ><img
+                      src="../../assets/icons/warning.png"
+                      alt="report"
+                      class="w-5 h-5"
+                  /></a>
+                  <p class="text-subtitle-text text-subtitle-size">Report</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Post -->
+          <div class="flex px-4 pb-4 border-border-gray border-b space-x-2">
+            <!-- Profile Pic -->
+            <img
+              src="../../assets/images/avatar_bwa.png"
+              alt="bwa"
+              class="w-[46] h-[46] rounded-full"
+            />
+            <div class="w-full flex-col space-y-2.5">
+              <!-- User Data -->
+              <div class="w-full flex items-center justify-between">
+                <div class="flex-col">
+                  <h5 class="text-white font-bold flex items-center">
+                    BuildWithAngga<span
+                      ><img
+                        src="../../assets/icons/verify.png"
+                        alt="verified"
+                        class="ml-1 w-4 h-4"
+                    /></span>
+                  </h5>
+                  <p class="text-subtitle-text text-subtitle-size">
+                    @bwa &bull; 12 Jan 2024
+                  </p>
+                </div>
+                <a
+                  href="#"
+                  class="flex items-center px-3 py-[6] rounded-full border-border-gray border"
+                >
+                  <img
+                    src="../../assets/icons/happy.png"
+                    alt="happy"
+                    class="w-4 h-4"
+                  />
+                  <p class="text-white text-xs font-semibold ml-[6]">Happy</p>
+                </a>
+              </div>
+              <!-- Post contents -->
+              <p class="text-white leading-7">
+                Tidak pernah berhenti membangun karir impian Anda bersama dengan
+                para mentor expert kami.
+              </p>
+              <!-- Like button -->
+              <div class="flex space-x-2.5 items-center">
+                <div class="flex space-x-1.5">
+                  <a href="#"
+                    ><img
+                      src="../../assets/icons/heart-gray.png"
+                      alt="like"
+                      class="w-5 h-5"
+                  /></a>
+                  <p class="text-subtitle-text text-subtitle-size">394 Likes</p>
+                </div>
+                <div class="flex space-x-1.5">
+                  <a href="#"
+                    ><img
+                      src="../../assets/icons/trash.png"
+                      alt="trash"
+                      class="w-5 h-5"
+                  /></a>
+                  <p class="text-subtitle-text text-subtitle-size">Delete</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-1/3 pt-[30] space-y-5">
+          <!-- Search Bar -->
+          <form action="post" class="w-full relative">
+            <div class="relative flex items-center">
+              <img
+                src="../../assets/icons/search-gray.png"
+                class="pointer-events-none w-6 absolute left-4"
+                alt="Search Icon"
+              />
+              <input
+                type="text"
+                name="search"
+                class="bg-secondary-bg w-full rounded-full px-4 py-3 pl-12 text-white placeholder:text-subtitle-text focus:caret-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Search"
+              />
+            </div>
+          </form>
+          <!-- Users Recommendation -->
+          <div
+            class="bg-secondary-bg flex-col rounded-2xl space-y-6 px-[14px] py-[14px]"
+          >
+            <h3 class="text-white font-bold text-[18px]">You might like</h3>
+            <!-- Other User -->
+            <div class="w-full flex items-center justify-between">
+              <div class="flex items-center space-x-2">
+                <img
+                  src="../../assets/images/avatar_shayna.png"
+                  alt="avatar_shayna"
+                  class="w-[46px] h-[46px]"
+                />
+                <div class="flex-col">
+                  <h5 class="text-white font-bold flex items-center">
+                    Shayna<span
+                      ><img
+                        src="../../assets/icons/verify.png"
+                        alt="verified"
+                        class="ml-1 w-4 h-4"
+                    /></span>
+                  </h5>
+                  <p class="text-subtitle-text text-subtitle-size">@shayna</p>
+                </div>
+              </div>
+              <a
+                href="#"
+                class="bg-white rounded-full text-black font-bold text-[14px] px-4 py-[6px]"
+                >Follow</a
+              >
+            </div>
+            <!-- Other User -->
+            <div class="w-full flex items-center justify-between">
+              <div class="flex items-center space-x-2">
+                <img
+                  src="../../assets/images/avatar_masayoshi2.png"
+                  alt="avatar_masayoshi2"
+                  class="w-[46px] h-[46px]"
+                />
+                <div class="flex-col">
+                  <h5 class="text-white font-bold flex items-center">
+                    Masayoshi<span
+                      ><img
+                        src="../../assets/icons/verify.png"
+                        alt="verified"
+                        class="ml-1 w-4 h-4"
+                    /></span>
+                  </h5>
+                  <p class="text-subtitle-text text-subtitle-size">
+                    @masayoshi
+                  </p>
+                </div>
+              </div>
+              <a
+                href="#"
+                class="bg-white rounded-full text-black font-bold text-[14px] px-4 py-[6px]"
+                >Follow</a
+              >
+            </div>
+            <!-- Other User -->
+            <div class="w-full flex items-center justify-between">
+              <div class="flex items-center space-x-2">
+                <img
+                  src="../../assets/images/avatar_ramina.png"
+                  alt="avatar_ramina"
+                  class="w-[46px] h-[46px]"
+                />
+                <div class="flex-col">
+                  <h5 class="text-white font-bold flex items-center">
+                    Ramina<span
+                      ><img
+                        src="../../assets/icons/verify.png"
+                        alt="verified"
+                        class="ml-1 w-4 h-4"
+                    /></span>
+                  </h5>
+                  <p class="text-subtitle-text text-subtitle-size">@ramina</p>
+                </div>
+              </div>
+              <a
+                href="#"
+                class="bg-white rounded-full text-black font-bold text-[14px] px-4 py-[6px]"
+                >Follow</a
+              >
+            </div>
+            <!-- show more -->
+            <div>
+              <a href="#" class="text-twittr-blue font-medium">Show more</a>
+            </div>
+          </div>
+          <!-- Trendings -->
+          <div
+            class="bg-secondary-bg flex-col rounded-2xl p-[14px] space-y-[14px]"
+          >
+            <h3 class="text-white font-bold text-[18px]">Indonesia trends</h3>
+            <!-- topic list -->
+            <div class="flex-col">
+              <p class="text-subtitle-text text-subtitle-size">
+                1 &bull; Trending
+              </p>
+              <h4 class="text-white font-bold">belajar javascript di bwa</h4>
+              <p class="text-subtitle-text text-subtitle-size">14k posts</p>
+            </div>
+            <!-- topic list -->
+            <div class="flex-col">
+              <p class="text-subtitle-text text-subtitle-size">
+                2 &bull; Trending
+              </p>
+              <h4 class="text-white font-bold">kerja remote itu asik</h4>
+              <p class="text-subtitle-text text-subtitle-size">14k posts</p>
+            </div>
+            <!-- topic list -->
+            <div class="flex-col">
+              <p class="text-subtitle-text text-subtitle-size">
+                3 &bull; Trending
+              </p>
+              <h4 class="text-white font-bold">bwa banyak kelas gratis</h4>
+              <p class="text-subtitle-text text-subtitle-size">14k posts</p>
+            </div>
+            <!-- topic list -->
+            <div class="flex-col">
+              <p class="text-subtitle-text text-subtitle-size">
+                4 &bull; Trending
+              </p>
+              <h4 class="text-white font-bold">mengapa coding sulit</h4>
+              <p class="text-subtitle-text text-subtitle-size">14k posts</p>
+            </div>
+            <!-- topic list -->
+            <div class="flex-col">
+              <p class="text-subtitle-text text-subtitle-size">
+                5 &bull; Trending
+              </p>
+              <h4 class="text-white font-bold">diskon bwa besar banget</h4>
+              <p class="text-subtitle-text text-subtitle-size">14k posts</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <title>Twittr | Sign Up</title>
+  </head>
+  <body class="bg-primary-bg font-poppins">
+    <main
+      class="container w-screen h-screen m-auto flex justify-center items-center"
+    >
+      <div
+        class="container w-[484px] h-fit flex-col align-middle justify-items-center mb-12 mr-24 space-y-[50px]"
+      >
+        <header class="flex-col space-y-1">
+          <h1 class="text-white font-bold text-[38px]">Sign Up</h1>
+          <p class="text-white">What's trend, what's good for you.</p>
+        </header>
+
+        <!-- Form Fields -->
+        <div class="flex-col space-y-4">
+          <form class="space-y-3 relative" action="#" method="post">
+            <label for="fullname" class="text-white font-medium"
+              >Full Name</label
+            >
+            <div class="relative flex items-center">
+              <img
+                src="../../assets/icons/user.png"
+                class="pointer-events-none w-6 absolute left-4"
+                alt="user"
+              />
+              <input
+                type="text"
+                name="fullname"
+                placeholder="Full Name"
+                class="bg-secondary-bg w-full rounded-full px-8 py-3 pl-12 text-white placeholder:text-subtitle-text focus:caret-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+          </form>
+          <form class="space-y-3 relative" action="#" method="post">
+            <label for="username" class="text-white font-medium"
+              >Username</label
+            >
+            <div class="relative flex items-center">
+              <img
+                src="../../assets/icons/crown.png"
+                class="pointer-events-none w-6 absolute left-4"
+                alt="crown"
+              />
+              <input
+                type="text"
+                name="username"
+                placeholder="Username"
+                class="bg-secondary-bg w-full rounded-full px-8 py-3 pl-12 text-white placeholder:text-subtitle-text focus:caret-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+          </form>
+          <form class="space-y-3 relative" action="#" method="post">
+            <label for="password" class="text-white font-medium"
+              >Password</label
+            >
+            <div class="relative flex items-center">
+              <img
+                src="../../assets/icons/lock.png"
+                class="pointer-events-none w-6 absolute left-4"
+                alt="lock"
+              />
+              <input
+                type="password"
+                name="password"
+                placeholder="Password"
+                class="bg-secondary-bg w-full rounded-full px-8 py-3 pl-12 text-white placeholder:text-subtitle-text focus:caret-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+          </form>
+        </div>
+        <!-- Action Buttons -->
+        <div class="flex-col space-y-[14px]">
+          <a
+            href="../home/index.html"
+            class="block w-full text-white bg-twittr-blue text-base font-bold px-10 py-3 rounded-full text-center"
+            >Create Account</a
+          >
+          <a
+            href="../../index.html"
+            class="block w-full text-black bg-white text-base font-bold px-10 py-3 rounded-full text-center"
+            >Sign In to My Account</a
+          >
+        </div>
+      </div>
+      <!-- Logo -->
+      <div class="container w-1/3 h-fit flex align-middle justify-start">
+        <h1 class="text-white font-extrabold text-[120px]">twittr.</h1>
+      </div>
+    </main>
+  </body>
+</html>
